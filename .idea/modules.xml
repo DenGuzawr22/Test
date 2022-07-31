@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestCI.iml" filepath="$PROJECT_DIR$/.idea/modules/TestCI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestCI-build.iml" filepath="$PROJECT_DIR$/.idea/modules/TestCI-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Buildopoli.iml" filepath="$PROJECT_DIR$/.idea/modules/Buildopoli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Buildopoli-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Buildopoli-build.iml" />
     </modules>
   </component>
 </project>
