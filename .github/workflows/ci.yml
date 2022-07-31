@@ -11,6 +11,7 @@ on:
     release:
       types:
         - created
+# What
 jobs:
   Build: # Job name
     env: # Environment can be controlled at the job or step level
