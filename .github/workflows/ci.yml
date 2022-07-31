@@ -18,8 +18,7 @@ env: # Environment can be controlled at the job or step level
 
 jobs:
   Build: # Job name
-
-    runs-on: ubuntu-latest # Operating system selection
+    runs-on: ${{ env.OS }} # Operating system selection
     steps:
       - name: Checkout # custom name Checkout the repository
         uses: actions/checkout@v2 # Action implemented in this repository, tag "2"
