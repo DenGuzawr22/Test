@@ -1,0 +1,28 @@
+name: PPS ci test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  page_build:
+    release:
+      types:
+        - created
+jobs:
+  Build: # Job name
+    runs-on: ubuntu-latest # Operating system selection
+    env: # Environment can be controlled at the job or step level
+      TERM: dumb # Sets the environment variable TERM to "dumb"
+    steps:
+      - name: Checkout # custom name Checkout the repository
+        uses: actions/checkout@v2 # Action implemented in this repository, tag "2"
+
+      - uses: joschi/setup-jdk@v2.3.0 # Action implemented in repository "joschi/setup-jdk" tag "2.3.0"
+        with: # Actions parameters (action name omitted)
+          java-version: 16
+
+      - name: Build
+        run: sbt -v +test
