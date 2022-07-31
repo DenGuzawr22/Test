@@ -18,7 +18,11 @@ env: # Environment can be controlled at the job or step level
 
 jobs:
   Build: # Job name
-    runs-on: ${{ env.OS }} # Operating system selection
+    strategy:
+      matrix:
+        scala_version: [ 3.1.3 ]
+        os: [ ubuntu-latest, windows-latest ]
+    runs-on: ${{ matrix.os }} # Operating system selection
     steps:
       - name: Checkout # custom name Checkout the repository
         uses: actions/checkout@v2 # Action implemented in this repository, tag "2"
