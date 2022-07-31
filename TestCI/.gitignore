@@ -23,7 +23,7 @@
 *.log
 
 #Sbt
-.bsp
+.bsp/*
 dist/*
 target/
 lib_managed/
