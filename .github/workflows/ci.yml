@@ -16,7 +16,7 @@ jobs:
   Build: # Job name
     env: # Environment can be controlled at the job or step level
       OS: ubuntu-latest # Sets the environment variable TERM to "dumb"
-    runs-on: ${{OS}} # Operating system selection
+    runs-on: ubuntu-latest # Operating system selection
     steps:
       - name: Checkout # custom name Checkout the repository
         uses: actions/checkout@v2 # Action implemented in this repository, tag "2"
