@@ -7,3 +7,7 @@ class Test extends AnyFunSuite:
   test("An empty Set should have size 0") {
     assert(x.getValue == 999)
   }
+
+  test("an test that fail") {
+    assert(x.getValue == 9)
+  }

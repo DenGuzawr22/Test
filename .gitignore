@@ -38,5 +38,5 @@ project/plugins/project/
 *.iml
 *.ipr
 *.iws
-out
-
+out/
+.idea_modules/
