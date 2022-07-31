@@ -11,7 +11,7 @@
         <th>4</th>
     </tr>
     <tr>
-        <td>I would like to define the property of gamers</td>
+        <td>I would like to define the property of the game and gamers</td>
         <td>URL</td>
         <td>15</td>
         <td></td>
