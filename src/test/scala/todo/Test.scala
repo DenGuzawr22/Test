@@ -9,5 +9,5 @@ class Test extends AnyFunSuite:
   }
 
   test("an test that fail") {
-    assert(x.getValue == 9)
+    assert(x.getValue == 999)
   }
