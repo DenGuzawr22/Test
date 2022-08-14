@@ -1,31 +1,31 @@
-name: PPS ci test
-on:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main
-  page_build:
-    release:
-      types:
-        - created
+# name: PPS ci test
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#   push:
+#     branches:
+#       - main
+#   page_build:
+#     release:
+#       types:
+#         - created
 
-env: # Environment can be controlled at the job or step level
-  OS: ubuntu-latest # to use ${{ env.OS }}
+# env: # Environment can be controlled at the job or step level
+#   OS: ubuntu-latest # to use ${{ env.OS }}
 
-jobs:
-  BuildAndTest: # Job name
-    strategy:
-      matrix:
-        os: [ ubuntu-latest, windows-latest ]
-    runs-on: ${{ matrix.os }} # Operating system selection
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: setup-scala
-        uses: olafurpg/setup-scala@v10
-      - name: Compile
-        run: sbt compile
-      - name: Test
-        run: sbt -v +test
+# jobs:
+#   BuildAndTest: # Job name
+#     strategy:
+#       matrix:
+#         os: [ ubuntu-latest, windows-latest ]
+#     runs-on: ${{ matrix.os }} # Operating system selection
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#       - name: setup-scala
+#         uses: olafurpg/setup-scala@v10
+#       - name: Compile
+#         run: sbt compile
+#       - name: Test
+#         run: sbt -v +test
