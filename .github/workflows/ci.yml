@@ -1,5 +1,4 @@
 name: PPS ci test
-
 on:
   pull_request:
     branches:
@@ -11,7 +10,6 @@ on:
     release:
       types:
         - created
-# What
 
 env: # Environment can be controlled at the job or step level
   OS: ubuntu-latest # to use ${{ env.OS }}
