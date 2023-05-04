@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="DSDMS" target="16" />
+      <module name="DSDMS.main" target="16" />
+      <module name="DSDMS.modul1" target="1.7" />
+      <module name="DSDMS.modul1.main" target="1.7" />
+      <module name="DSDMS.modul1.test" target="1.7" />
+      <module name="DSDMS.test" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
