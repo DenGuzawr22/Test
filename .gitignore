@@ -40,3 +40,6 @@ project/plugins/project/
 *.iws
 out/
 .idea_modules/
+
+.gradle
+build
