@@ -25,10 +25,23 @@ jobs:
                 version: 1.7.10
             - name: gradle build
               run: ./gradlew build
-#            - name: docker compose
-#              uses: isbang/compose-action@v1.4.1
-#              with:
-#                down-flags: "--volumes"
-#                services: dossier_service
-#            - name: run tests
-#              run: ./gradlew SystemTester:run
+    release:
+      if: github.event_name == 'push'
+      needs:
+        - firstJob
+      runs-on: ubuntu-latest
+      concurrency:
+        group: release
+        cancel-in-progress: false
+      steps:
+        - name: Check out repository code
+          uses: actions/checkout@v3
+          with:
+            submodules: recursive
+            fetch-depth: 0
+        - name: Release
+          env:
+            GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          run: |
+            npm install
+            npx semantic-release
