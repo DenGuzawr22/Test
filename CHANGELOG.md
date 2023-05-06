@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/DenGuzawr22/Test/compare/1.0.2...1.1.0) (2023-05-06)
+
+
+### Features
+
+* add mono-repo semantic release ([0464765](https://github.com/DenGuzawr22/Test/commit/0464765fe85eb2aebe21a1fb4584d83ce15fcbfd))
+
+
+### General maintenance
+
+* merge ([8b33f36](https://github.com/DenGuzawr22/Test/commit/8b33f36f04ebc585b966c3791b2f35092145b881))
+
 ## [1.0.2](https://github.com/DenGuzawr22/Test/compare/1.0.1...1.0.2) (2023-05-06)
 
 
