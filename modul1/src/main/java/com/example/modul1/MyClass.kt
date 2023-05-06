@@ -4,7 +4,7 @@ class MyClass {
     companion object{
         @JvmStatic
         fun main(args: Array<String>) {
-            println("Hello computer from module 1")
+            println("Hello computer from module 1!")
         }
     }
 }
