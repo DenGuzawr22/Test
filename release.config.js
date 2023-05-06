@@ -16,6 +16,6 @@ config.plugins.push(
     "@semantic-release/git",
 )
 
-//config.branches.push(['main'])
+config.branches = ['main']
 
 module.exports = config
