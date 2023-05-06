@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/DenGuzawr22/Test/compare/1.0.1...1.0.2) (2023-05-06)
+
+
+### Bug Fixes
+
+* a fix 1 ([2f57044](https://github.com/DenGuzawr22/Test/commit/2f5704421fc770d1c1c5d2797550144d1b60a42a))
+* a fix 1 ([f7396ed](https://github.com/DenGuzawr22/Test/commit/f7396ed25ca3d4d4721bb54abb672c4f8ab4d9c7))
+* a fix 3 ([ce5f88a](https://github.com/DenGuzawr22/Test/commit/ce5f88abc23bfdc8f5c4c6a7013c4f998f9ed485))
+* merge ([e70743f](https://github.com/DenGuzawr22/Test/commit/e70743fecb88906a460c494ebc8230380b588522))
+
 ## [1.0.1](https://github.com/DenGuzawr22/Test/compare/1.0.0...1.0.1) (2023-05-06)
 
 
