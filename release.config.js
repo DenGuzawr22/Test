@@ -11,6 +11,8 @@ config.plugins.push(
     ["@semantic-release/github", {
         "assets": [
             { "path": "build/libs/*.jar" },
+            { "path": "modul1/build/libs/*.jar"},
+            { "path": "modul2/build/libs/*.jar"}
         ]
     }],
     "@semantic-release/git",
