@@ -13,7 +13,7 @@ plugins {
 //    id("org.jetbrains.kotlin.jvm") version "1.8.21" apply false
 
 }
-
+//uu
 allprojects{
     tasks.withType<KotlinCompile> {
         kotlinOptions.jvmTarget = "16"
