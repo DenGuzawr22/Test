@@ -1,3 +1,20 @@
+## [1.1.1](https://github.com/DenGuzawr22/Test/compare/1.1.0...1.1.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* merge ([158c5f5](https://github.com/DenGuzawr22/Test/commit/158c5f540865fd85e191ae586ff840a76540d55c))
+
+
+### Build and continuous integration
+
+* add more jars ([f7d9f72](https://github.com/DenGuzawr22/Test/commit/f7d9f72142bb0f008afabe47b3df57d1d9486207))
+
+
+### General maintenance
+
+* merge ([5b411a7](https://github.com/DenGuzawr22/Test/commit/5b411a7169a8e71c7e2a3cd7e5a52aa4a1c1365d))
+
 ## [1.1.0](https://github.com/DenGuzawr22/Test/compare/1.0.2...1.1.0) (2023-05-06)
 
 
