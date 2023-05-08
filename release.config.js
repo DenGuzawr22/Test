@@ -1,5 +1,5 @@
 var publishCmd = `
-./gradlew assemble --parallel || exit 1
+./gradlew assemble -Pversion=\${nextRelease.version} --parallel || exit 1
 git tag -a -f \${nextRelease.version} \${nextRelease.version} -F CHANGELOG.md || exit 2
 git push --force origin \${nextRelease.version} || exit 3
 `

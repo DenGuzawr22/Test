@@ -1,7 +1,6 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "io.github.denguzawr22"
-version = "0.0.1-SNAPSHOT4"
 
 plugins {
     alias(libs.plugins.kotlin.jvm)
