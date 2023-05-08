@@ -4,6 +4,24 @@
 ### Bug Fixes
 
 * remove ci command ([c6d39c9](https://github.com/DenGuzawr22/Test/commit/c6d39c9e1bbb3bc03ec3a024cf4108d3ef9f1b48))
+* test fix ([726f013](https://github.com/DenGuzawr22/Test/commit/726f0137db20dc40b8645317266b98d3294b6b54))
+
+
+### Documentation
+
+* merge ([ee59516](https://github.com/DenGuzawr22/Test/commit/ee59516ae86394209b5ee7f6137e320d12e12b1c))
+
+
+### General maintenance
+
+* **release:** 1.2.1 [skip ci] ([b1f9b2d](https://github.com/DenGuzawr22/Test/commit/b1f9b2dc4b4a1215aa3dd2e99a67abc6a96b9612))
+
+## [1.2.1](https://github.com/DenGuzawr22/Test/compare/1.2.0...1.2.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* remove ci command ([c6d39c9](https://github.com/DenGuzawr22/Test/commit/c6d39c9e1bbb3bc03ec3a024cf4108d3ef9f1b48))
 
 
 ### Documentation
