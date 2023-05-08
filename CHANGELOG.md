@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/DenGuzawr22/Test/compare/1.1.1...1.2.0) (2023-05-08)
+
+
+### Features
+
+* add jar versions ([8409e9f](https://github.com/DenGuzawr22/Test/commit/8409e9f7046cdace65c2cb87182519801564a8b3))
+
+
+### Documentation
+
+* add changelog ([8829e0d](https://github.com/DenGuzawr22/Test/commit/8829e0dd7d1286a570d75df596d47d54114b8647))
+
 ## [1.1.1](https://github.com/DenGuzawr22/Test/compare/1.1.0...1.1.1) (2023-05-08)
 
 
