@@ -1,3 +1,15 @@
+## [1.2.1](https://github.com/DenGuzawr22/Test/compare/1.2.0...1.2.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* remove ci command ([c6d39c9](https://github.com/DenGuzawr22/Test/commit/c6d39c9e1bbb3bc03ec3a024cf4108d3ef9f1b48))
+
+
+### Documentation
+
+* merge ([ee59516](https://github.com/DenGuzawr22/Test/commit/ee59516ae86394209b5ee7f6137e320d12e12b1c))
+
 ## [1.2.0](https://github.com/DenGuzawr22/Test/compare/1.1.1...1.2.0) (2023-05-08)
 
 
