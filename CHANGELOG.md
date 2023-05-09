@@ -1,3 +1,17 @@
+## [1.2.3](https://github.com/DenGuzawr22/Test/compare/1.2.2...1.2.3) (2023-05-09)
+
+
+### Bug Fixes
+
+* change ci branch ([ca6f550](https://github.com/DenGuzawr22/Test/commit/ca6f550d66ef23b4e15129d6b2010d4a85f57859))
+* change ci branch ([82b64a3](https://github.com/DenGuzawr22/Test/commit/82b64a385212efeba39c7898a0969bcb0efcf71d))
+
+
+### General maintenance
+
+* **changelog:** merge ([79b2120](https://github.com/DenGuzawr22/Test/commit/79b21209bfc46403310054f4596b6c6e99ffd5ea))
+* **release:** 1.2.2 [skip ci] ([1f6ce2f](https://github.com/DenGuzawr22/Test/commit/1f6ce2f204170e9842bd60e38374f286210400fc))
+
 ## [1.2.2](https://github.com/DenGuzawr22/Test/compare/1.2.1...1.2.2) (2023-05-09)
 
 
