@@ -18,6 +18,6 @@ config.plugins.push(
     "@semantic-release/git",
 )
 // a fix 4
-config.branches = ['main']
+config.branches = ['do-do']
 
 module.exports = config
