@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/DenGuzawr22/Test/compare/1.2.1...1.2.2) (2023-05-09)
+
+
+### Bug Fixes
+
+* change ci branch ([82b64a3](https://github.com/DenGuzawr22/Test/commit/82b64a385212efeba39c7898a0969bcb0efcf71d))
+* test fix 2 ([f18232f](https://github.com/DenGuzawr22/Test/commit/f18232f825cd3f4fa1434a9d6f23d323aa547774))
+
 ## [1.2.1](https://github.com/DenGuzawr22/Test/compare/1.2.0...1.2.1) (2023-05-08)
 
 
