@@ -1,17 +1,17 @@
+## [1.2.2](https://github.com/DenGuzawr22/Test/compare/1.2.1...1.2.2) (2023-05-09)
+
+
+### Bug Fixes
+
+* change ci branch ([82b64a3](https://github.com/DenGuzawr22/Test/commit/82b64a385212efeba39c7898a0969bcb0efcf71d))
+* test fix 2 ([f18232f](https://github.com/DenGuzawr22/Test/commit/f18232f825cd3f4fa1434a9d6f23d323aa547774))
+
 ## [1.2.2](https://github.com/DenGuzawr22/Test/compare/1.2.1...1.2.2) (2023-05-08)
 
 
 ### Bug Fixes
 
 * test fix 2 ([f18232f](https://github.com/DenGuzawr22/Test/commit/f18232f825cd3f4fa1434a9d6f23d323aa547774))
-
-## [1.2.1](https://github.com/DenGuzawr22/Test/compare/1.2.0...1.2.1) (2023-05-08)
-
-
-### Bug Fixes
-
-* remove ci command ([c6d39c9](https://github.com/DenGuzawr22/Test/commit/c6d39c9e1bbb3bc03ec3a024cf4108d3ef9f1b48))
-* test fix ([726f013](https://github.com/DenGuzawr22/Test/commit/726f0137db20dc40b8645317266b98d3294b6b54))
 
 
 ### Documentation
