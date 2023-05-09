@@ -29,6 +29,8 @@ jobs:
       if: github.event_name == 'push'
       needs:
         - firstJob
+      permissions:
+        contents: write
       runs-on: ubuntu-latest
       concurrency:
         group: release
