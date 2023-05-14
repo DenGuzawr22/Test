@@ -13,7 +13,7 @@ jobs:
     firstJob:
         strategy:
             matrix:
-                os: [ ubuntu-latest ] #windows-latest
+                os: [ ubuntu-latest ] #windows-latestt
         runs-on: ${{ matrix.os }}
         steps:
             - name: Checkout
