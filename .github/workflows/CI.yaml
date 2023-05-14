@@ -6,6 +6,8 @@ on:
             - main
             - develop
             - do-do
+        path-ignore:
+          -'CHANGELOG.md'
 
 jobs: 
     firstJob:
