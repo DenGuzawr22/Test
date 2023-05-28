@@ -60,5 +60,5 @@ jobs:
           run: npm install -g swaggerhub-cli     
         - name: Upload Swagger File
           run: |
-          export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
-          swaggerhub api:update DenGuzawr22/DSDMS/0.0.1 --file ./swagger.yaml
+            export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
+            swaggerhub api:update DenGuzawr22/DSDMS/0.0.1 --file ./swagger.yaml
