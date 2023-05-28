@@ -55,11 +55,10 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout Repository
-          uses: actions/checkout@v2
-
+          uses: actions/checkout@v3
         - name: Install SwaggerHub CLI
           run: npm install -g swaggerhub-cli     
-
-        - name: Upload Swagger File
+        - name: save api key
           run: export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
+        - name: Upload Swagger File
           run: swaggerhub api:update DenGuzawr22/DSDMS/0.0.1 --file ./swagger.yaml
