@@ -1,3 +1,26 @@
+## [1.0.1](https://github.com/DenGuzawr22/Test/compare/1.0.0...1.0.1) (2023-05-28)
+
+
+### Bug Fixes
+
+* fix ([e239c97](https://github.com/DenGuzawr22/Test/commit/e239c976e260c877baac6dd2792dd180097ff53e))
+
+
+### General maintenance
+
+* aaa2 ([e4ed9d1](https://github.com/DenGuzawr22/Test/commit/e4ed9d109929244b095eddf8d892a84dbe6b8ab7))
+* aaaa ([578984c](https://github.com/DenGuzawr22/Test/commit/578984c72b096a32a50193e593845f4aed581357))
+* dodo ([768f21d](https://github.com/DenGuzawr22/Test/commit/768f21d2a5fdef0d17afb618f376deae6847187d))
+* merge ([0726b63](https://github.com/DenGuzawr22/Test/commit/0726b63cdf03a7980513466460954d18c3f10bfd))
+
+
+### Build and continuous integration
+
+* aaa ([7e62c0e](https://github.com/DenGuzawr22/Test/commit/7e62c0e2b138dd9b42fb25a7d30a3c4cb5b9426b))
+* add openapi validation ([6fcd0bc](https://github.com/DenGuzawr22/Test/commit/6fcd0bc9b180d75379e653c9602694667ba66c7d))
+* create separete file for swagger ([9f33aaf](https://github.com/DenGuzawr22/Test/commit/9f33aafeb3898d78447e515123aa6f4903e2de03))
+* integrate all togherther ([5c72c07](https://github.com/DenGuzawr22/Test/commit/5c72c07929135ac898ccc4cd622ec4a792045720))
+
 ## 1.0.0 (2023-05-28)
 
 
