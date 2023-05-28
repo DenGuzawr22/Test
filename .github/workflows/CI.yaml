@@ -29,8 +29,7 @@ jobs:
               run: ./gradlew build
     release:
       if: github.event_name == 'push'
-      needs:
-        - firstJob
+      needs: firstJob
       permissions:
         contents: write
       runs-on: ubuntu-latest
@@ -46,3 +45,26 @@ jobs:
           run: |
             npm install
             npx semantic-release
+          id: ver
+      outputs:
+        newVersion: ${{ steps.ver.outputs.nextVer }}
+    swagger:
+      needs: release
+      runs-on: ubuntu-latest
+      env:
+        FILE: ./swagger.yaml
+      steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v3
+        - name: Check version
+          run: echo ${{ needs.release.outputs.newVersion }}
+        - name: Validate OpenAPI definition
+          uses: char0n/swagger-editor-validate@v1
+          with:
+            definition-file: ${{ env.FILE }}
+        - name: Install SwaggerHub CLI
+          run: npm install -g swaggerhub-cli     
+        - name: Upload Swagger File
+          run: |
+            export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
+            swaggerhub api:update DenGuzawr22/DSDMS/${{ needs.release.outputs.newVersion }} --file ${{ env.FILE }}
