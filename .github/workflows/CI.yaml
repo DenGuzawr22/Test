@@ -67,4 +67,4 @@ jobs:
         - name: Upload Swagger File
           run: |
             export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
-            swaggerhub api:update DenGuzawr22/DSDMS/${{ needs.release.outputs.newVersion }} --file ${{ env.FILE }}
+            swaggerhub api:create DenGuzawr22/DSDMS/${{ needs.release.outputs.newVersion }} --file ${{ env.FILE }} --visibility public
