@@ -1,3 +1,15 @@
+## [1.0.2](https://github.com/DenGuzawr22/Test/compare/1.0.1...1.0.2) (2023-05-28)
+
+
+### Bug Fixes
+
+* minor fix ([3cc2c0a](https://github.com/DenGuzawr22/Test/commit/3cc2c0a1d7b32ea324583204193de924a630720c))
+
+
+### General maintenance
+
+* aaa ([e20ef11](https://github.com/DenGuzawr22/Test/commit/e20ef11310cefc671d45e945610273b5a4b2e044))
+
 ## [1.0.1](https://github.com/DenGuzawr22/Test/compare/1.0.0...1.0.1) (2023-05-28)
 
 
