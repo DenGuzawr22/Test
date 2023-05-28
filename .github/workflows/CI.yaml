@@ -58,7 +58,8 @@ jobs:
           uses: actions/checkout@v2
 
         - name: Install SwaggerHub CLI
-          run: npm install -g swaggerhub-cli
+          run: npm install -g swaggerhub-cli     
 
         - name: Upload Swagger File
-          run: swaggerhub api:update DenGuzawr22/DSDMS/0.0.1 --file ./swagger.yaml --token ${{ secrets.SWAGGERHUB_TOKEN }}
+          run: export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
+          run: swaggerhub api:update DenGuzawr22/DSDMS/0.0.1 --file ./swagger.yaml
