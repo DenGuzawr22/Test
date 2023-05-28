@@ -45,4 +45,24 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           run: |
             npm install
+<<<<<<< HEAD
             npx semantic-release
+=======
+            npx semantic-release
+    swagger:
+      if: github.event_name == 'push'
+      needs:
+        - firstJob
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v3
+        - name: Install SwaggerHub CLI
+          run: npm install -g swaggerhub-cli     
+        - name: Upload Swagger File
+          run: |
+            export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
+            swaggerhub api:update DenGuzawr22/DSDMS/0.0.1 --file ./swagger.yaml
+>>>>>>> a0d9b691d66f53610b7aa941508cadb30d595afb
