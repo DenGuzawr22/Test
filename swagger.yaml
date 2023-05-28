@@ -77,11 +77,9 @@ paths:
           "500":
             $ref: '#/components/responses/ServerError'
 
-
-
-
-
-
+    "/caracumba":
+        
+       
 
 
           #   put:
