@@ -46,3 +46,19 @@ jobs:
           run: |
             npm install
             npx semantic-release
+    swagger:
+      if: github.event_name == 'push'
+      needs:
+        - firstJob
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v2
+
+        - name: Install SwaggerHub CLI
+          run: npm install -g swaggerhub-cli
+
+        - name: Upload Swagger File
+          run: swaggerhub api:create-or-update --specification ./swagger.yaml --token ${{ secrets.SWAGGERHUB_TOKEN }}
