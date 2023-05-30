@@ -57,15 +57,16 @@ jobs:
       steps:
         - name: Checkout Repository
           uses: actions/checkout@v3
-        - name: Install SwaggerHub CLI
-          run: npm install -g swaggerhub-cli 
         - name: Generate single openapi File
-          run: swagger-cli bundle  ${{ env.SRCFILE }} --outfile  ${{ env.FILE }} --type yaml
+          run: |
+            npm install -g swagger-cli 
+            swagger-cli bundle  ${{ env.SRCFILE }} --outfile  ${{ env.FILE }} --type yaml
         - name: Validate OpenAPI definition
           uses: char0n/swagger-editor-validate@v1
           with:
-            definition-file: ${{ env.FILE }}    
+            definition-file: ${{ env.FILE }}
         - name: Upload Swagger File
           run: |
+            npm install -g swaggerhub-cli 
             export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
             swaggerhub api:create DenGuzawr22/DSDMS/test-${{ needs.release.outputs.newVersion }} --file ${{ env.FILE }} --visibility public
