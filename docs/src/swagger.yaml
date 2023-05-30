@@ -102,58 +102,8 @@ paths:
 
 components:
   schemas:
-    SubscriberDocuments:
-      type: object
-      required: [name, surname, birthdate, fiscal_code]
-      properties:
-        name:
-          type: string
-          example: "Homer"
-        surname:
-          type: string
-          example: "Simpsons"
-        birthdate:
-          type: string
-          format: date
-          example: "1990-03-03"
-        fiscal_code:
-          type: string
-          example: "SMPHMR80A01C573O"
-    Dossier:
-      allOf:
-        - $ref: '#/components/schemas/SubscriberDocuments'
-        - type: object
-          required: [_id, validity, examAttempts]
-          properties:
-            _id:
-              type: string
-              example: "64633c11f85fe95eb801c0b6"
-            validity:
-              type: boolean
-            examsStatus:
-              $ref: '#/components/schemas/ExamsStatus'
-
-    ExamsStatus:
-      type: object
-      required: [theoreticalExamState,practicalExamState]
-      properties:
-        theoreticalExamState:
-          type: string
-          enum: [TO_DO, PASSED]
-        practicalExamState:
-          type: string
-          enum: [TO_DO, FIRST_PROVISIONAL_LICENCE_INVALID, SECOND_PROVISIONAL_LICENCE_INVALID, PASSED]
-    ExamResult:
-      type: object
-      required: [exam, outcome]
-      properties:
-        exam:
-          type: string
-          enum: [THEORETICAL, PRACTICAL]
-        outcome:
-          type: string
-          enum: [PASSED, FAIL]
-
+    $ref: "schemas.yaml"
+    
 ##### PARAMETERS ######
   parameters:
     DossierId:
@@ -166,13 +116,4 @@ components:
         example: "d1"
 ##### RESPONSES ######
   responses:
-    ServerError:
-      description: Internal server error that typically happen when there are an error in server source code
-      content:
-        text/plain:
-          example: "IllegalStateException message"
-    BadRequest:
-      description: The request to the server not conform to the requested format
-      content:
-        text/plain:
-          example: "Exception message"
+    $ref: "responses.yaml"
