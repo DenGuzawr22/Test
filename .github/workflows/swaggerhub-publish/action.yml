@@ -14,6 +14,9 @@ inputs:
   token:
     description: "swagger token"
     required: true
+  type:
+    description: "create or update dcoumentation"
+    default: "create"
 runs:
   using: "composite"
   steps:
@@ -31,4 +34,4 @@ runs:
       run: |
         npm install -g swaggerhub-cli 
         export SWAGGERHUB_API_KEY=${{ inputs.token }}
-        swaggerhub api:update DenGuzawr22/DSDMS/${{ inputs.version }} --file ${{ inputs.output-file }}
+        swaggerhub api:${{ inputs.type }} DenGuzawr22/DSDMS/${{ inputs.version }} --file ${{ inputs.output-file }}
