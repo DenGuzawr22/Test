@@ -15,6 +15,7 @@ runs:
   using: "composite"
   steps:
     - name: Generate single openapi File
+      shell: bash
       run: |
         npm install -g swagger-cli 
         swagger-cli bundle  ${{ inputs.source-file }} --outfile  ${{ inputs.output-file }} --type yaml
@@ -23,6 +24,7 @@ runs:
       with:
         definition-file: ${{ inputs.output-file }}
     - name: Upload Swagger File
+      shell: bash
       run: |
         npm install -g swaggerhub-cli 
         export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
