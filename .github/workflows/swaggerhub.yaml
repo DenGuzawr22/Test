@@ -11,8 +11,6 @@ jobs:
   env:
     SRCFILE: ./docs/src/swagger.yaml
     FILE: ./build/openapi/openapi.yaml
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-    - name: reusePublish
-      uses: ./.github/workflows/swaggerhub-publish
+  uses: ./.github/workflows/swaggerhub-publish
+  with:
+    token: ${{ secrets.SWAGGERHUB_TOKEN }}

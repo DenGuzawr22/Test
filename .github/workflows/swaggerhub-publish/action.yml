@@ -11,9 +11,14 @@ inputs:
   version:
     description: "version of the api"
     default: "test.latest"
+  token:
+    description: "swagger token"
+    required: true
 runs:
   using: "composite"
   steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
     - name: Generate single openapi File
       shell: bash
       run: |
@@ -27,5 +32,5 @@ runs:
       shell: bash
       run: |
         npm install -g swaggerhub-cli 
-        export SWAGGERHUB_API_KEY=${{ secrets.SWAGGERHUB_TOKEN }}
+        export SWAGGERHUB_API_KEY=${{ inputs.token }}
         swaggerhub api:update DenGuzawr22/DSDMS/${{ inputs.version }} --file ${{ inputs.output-file }}
