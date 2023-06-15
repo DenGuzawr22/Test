@@ -8,9 +8,7 @@ on:
 jobs:
  swagger:
   runs-on: ubuntu-latest
-  env:
-    SRCFILE: ./docs/src/swagger.yaml
-    FILE: ./build/openapi/openapi.yaml
-  uses: ./.github/workflows/swaggerhub-publish
-  with:
-    token: ${{ secrets.SWAGGERHUB_TOKEN }}
+  steps:
+    - uses: ./.github/workflows/swaggerhub-publish
+      with:
+        token: ${{ secrets.SWAGGERHUB_TOKEN }}
