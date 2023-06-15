@@ -79,26 +79,6 @@ paths:
 
        
 
-          #   put:
-  "/api/{id}":
-    get:
-      summary: "Get a user by id"
-      operationId: test
-      parameters:
-        - name: id
-          in: path
-          required: true
-          schema:
-            about:blank#blockedtype: string
-            example: "10"
-      responses:
-        "200":
-          description: ""
-          content:
-            text/plaintext:
-              schema:
-                type: string
-
 
 components:
   schemas:
