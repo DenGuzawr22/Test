@@ -15,4 +15,4 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
     - name: reusePublish
-      uses: ./.github/workflows/swagger-publish
+      uses: ./.github/workflows/swaggerhub-publish
