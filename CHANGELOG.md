@@ -1,3 +1,11 @@
+## [1.1.0](https://github.com/DenGuzawr22/Test/compare/1.0.4...1.1.0) (2023-06-15)
+
+
+### Features
+
+* minor new fixes ([6c501a4](https://github.com/DenGuzawr22/Test/commit/6c501a4adc11882aae0c62469b27f574a4eb7513))
+* minor new fixes ([8364dbf](https://github.com/DenGuzawr22/Test/commit/8364dbfd7b527d630c30c3b42e6f084849a9b9a1))
+
 ## [1.0.4](https://github.com/DenGuzawr22/Test/compare/1.0.3...1.0.4) (2023-05-30)
 
 
