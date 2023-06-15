@@ -3,7 +3,7 @@ name: swaggerhub publish
 on:
   push:
     paths:
-      - './docs/src/*'
+      - 'docs/src/*'
       
 jobs:
  swagger:

@@ -10,7 +10,7 @@ inputs:
     default: "./build/openapi/openapi.yaml"
   version:
     description: "version of the api"
-    default: "test-latest"
+    default: "test.latest"
 runs:
   using: "composite"
   steps:
