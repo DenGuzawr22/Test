@@ -89,7 +89,7 @@ paths:
           in: path
           required: true
           schema:
-            type: string
+            about:blank#blockedtype: string
             example: "10"
       responses:
         "200":
