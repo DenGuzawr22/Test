@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/DenGuzawr22/Test/compare/1.1.1...1.1.2) (2023-06-15)
+
+
+### Bug Fixes
+
+* Update action.yml ([e687cff](https://github.com/DenGuzawr22/Test/commit/e687cff89454260afaf83876e948b06f543df6e8))
+* Update swagger.yaml ([1a4a888](https://github.com/DenGuzawr22/Test/commit/1a4a888877e9f36f2905a0d17b7805b466bcee0b))
+
 ## [1.1.1](https://github.com/DenGuzawr22/Test/compare/1.1.0...1.1.1) (2023-06-15)
 
 
