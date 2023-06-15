@@ -1,9 +1,9 @@
 name: swaggerhub publish
 
-on:
-  push:
-    paths:
-      - 'docs/src/*'
+# on:
+#   push:
+#     paths:
+#       - 'docs/src/*'
       
 jobs:
  swagger:
