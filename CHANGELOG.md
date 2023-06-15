@@ -1,3 +1,15 @@
+## [1.0.4](https://github.com/DenGuzawr22/Test/compare/1.0.3...1.0.4) (2023-05-30)
+
+
+### Bug Fixes
+
+* add missed swagger-cli install ([b4f4191](https://github.com/DenGuzawr22/Test/commit/b4f4191473533f379acc7e100fdea5991eec2f52))
+
+
+### General maintenance
+
+* split swagger file ([3255c0c](https://github.com/DenGuzawr22/Test/commit/3255c0c92fa5f682c16dd459cd608362cab54aa6))
+
 ## [1.0.3](https://github.com/DenGuzawr22/Test/compare/1.0.2...1.0.3) (2023-05-28)
 
 
